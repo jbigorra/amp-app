@@ -1,0 +1,15 @@
+.slider {
+  display: inline-block;
+  width: 25px;
+  height: 150px;
+  padding: 0;
+
+  &--vertical {
+    width: 25px;
+    height: 150px;
+    margin: 0;
+    // transform-origin: 75px 75px;
+    // transform: rotate(-90deg);
+    -webkit-appearance: slider-vertical;
+  }
+}

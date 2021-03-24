@@ -1,0 +1,29 @@
+
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true
+  },
+  "extends": [
+      "standard-with-typescript",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "project": "./tsconfig.json"
+  },
+  "plugins": [
+      "react"
+  ],
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
